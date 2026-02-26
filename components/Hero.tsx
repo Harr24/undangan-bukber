@@ -23,10 +23,10 @@ export default function Hero() {
       {/* Z-index paling tinggi (z-20) biar posisinya di atas gambar dan lapisan gelap */}
       <div className="relative z-20 flex flex-col items-center text-center mt-8 max-w-3xl">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight drop-shadow-xl tracking-tight">
-          Buka Bersama & <br /> Reuni Mini
+          Buka Bersama & <br /> Kumpul Atmin-Member
         </h1>
         <p className="text-xl md:text-2xl mb-10 font-medium italic text-gray-200 drop-shadow-md">
-          (Tapi Gak Mini-Mini Amat)
+          (Ayo,otw,ramaikan)
         </p>
 
         {/* Kotak Tanggal dibuat transparan kaca (Glassmorphism) */}
