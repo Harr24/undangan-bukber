@@ -7,6 +7,7 @@ import "aos/dist/aos.css"; // Import gaya CSS animasinya
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Countdown from "@/components/Countdown"; //tambahan import Countdown-nya
+import WidgetCuaca from "@/components/WidgetCuaca";
 import Tujuan from "@/components/Tujuan";
 import Rundown from "@/components/Rundown";
 import Lokasi from "@/components/Lokasi";
@@ -37,6 +38,7 @@ export default function Home() {
 
       {/*  Widget Countdown disisipkan tepat di bawah Hero dan di atas Tujuan */}
       <Countdown />
+      <WidgetCuaca />
 
       <Tujuan />
       <Rundown />
